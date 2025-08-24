@@ -58,9 +58,11 @@ main {
 
 .header__address {
   justify-self: end;
+}
+
+.contact__info {
   font-style: inherit;
   width: 240px;
-  height: 98px;
 }
 
 .address__item {
@@ -146,7 +148,7 @@ main {
 }
 
 .bet-button {
-  border: 1px #FFF solid;
+  border: 1px currentColor solid;
   padding: 14px 32px;
   color: #FFF;
   font-family: 'Raleway', sans-serif;
@@ -197,6 +199,8 @@ main {
   flex-direction: column;
   justify-content: space-between;
   gap: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: auto;
   height: 100%;
   padding: 50px 40px;
@@ -204,22 +208,16 @@ main {
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   background-position: 55% 50%;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   background-position: 50% 50%;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   background-position: 40% 50%;
 }
 
