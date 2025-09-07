@@ -171,22 +171,31 @@ main {
 }
 
 .lots {
+  width: 1052px;
+  height: 723px;
+  top: 1230px;
+  left: 24px;
   padding: 10px 0 50px;
 }
 
 .lots__heading {
-  padding: 0 0 25px 25px;
-  font-weight: bold;
+  width: 121px;
+  height: 47px;
+  left: 40px;
+  padding-left: 40px;
+  padding: 0px 40px;
+  font-style: bold;
   font-size: 40px;
-  line-height: 1;
+  line-height: 100%;
   text-transform: uppercase;
 }
 
 .lots__card-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 50px;
+  gap:25px 25px;
   list-style: none;
+  padding-top: 15px;
 }
 
 .lost__card-list-item {
@@ -241,6 +250,7 @@ main {
 .card__text {
   text-decoration: none;
   position: relative;
+  padding-top: 10px;
   z-index: 1;
   color: #FFF;
   font-size: 20px;
@@ -258,17 +268,24 @@ main {
 
 .about {
   display: grid;
+  background-color: grey;
+  width: 1052px;
+  height: 595px;
+  top: 2073px;
+  left: 24px;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 24px;
-  padding: 0 50px;
+  padding: 0px 0px;
 }
 
 .about__column {
-  justify-self: center;
+  position: relative;
+  padding-top: 35px;
+  padding-left: 50px;
 }
 
 .about__column_text {
   grid-column: 2/4;
+  margin-left: -50px;
 }
 
 .about__logo {
@@ -286,7 +303,7 @@ main {
 }
 
 .about__title {
-  padding: 120px 0 100px;
+  padding: 105px 0 100px;
   font-weight: bold;
   font-size: 40px;
   line-height: 1;
@@ -296,14 +313,16 @@ main {
 .about__text {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap:25px;
   font-size: 20px;
   line-height: 24px;
 }
 
 .about__text p {
   font-size: 20px;
+  line-height: 24px;
   line-height: normal;
+  padding-right: 0;
 }
 
 .footer {
