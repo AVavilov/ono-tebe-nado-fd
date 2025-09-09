@@ -1,7 +1,7 @@
 main {
   display: flex;
   flex-direction: column;
-  gap: 183px;
+  /* gap: 183px; */
 }
 
 .content-section {
@@ -174,6 +174,7 @@ main {
   width: 1100px;
   left: 24px;
   padding: 10px 24px 50px;
+  margin-top: 190px;
 }
 
 .lots__heading {
@@ -265,10 +266,11 @@ main {
 
 .about {
   display: grid;
-  width: 1145px;
+  width: 1052px;
   left: 24px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 30% 35% 35%;
   padding: 0px 0px;
+  margin-top: 60px;
 }
 
 .about__column {
@@ -331,7 +333,7 @@ main {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 180px 50px 80px;
+  padding: 140px 50px 80px;
 }
 
 .footer__menu-list {
