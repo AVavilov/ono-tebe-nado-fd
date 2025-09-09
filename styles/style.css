@@ -270,7 +270,7 @@ main {
 .about {
   display: grid;
   width: 1145px;
-  height: 606px;
+  height: 603px;
   top: 2073px;
   left: 24px;
   grid-template-columns: 1fr 1fr 1fr;
@@ -325,6 +325,14 @@ main {
   line-height: 24px;
   line-height: normal;
   padding-right: 0;
+}
+
+.about__text p:nth-child(2) {
+  font-size: 20px;
+  line-height: 24px;
+  line-height: normal;
+  padding-right: 0;
+  --paragraph-spacing: 30px;
 }
 
 .footer {
