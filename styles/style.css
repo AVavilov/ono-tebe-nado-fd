@@ -172,16 +172,12 @@ main {
 
 .lots {
   width: 1100px;
-  height: 655px;
-  top: 1230px;
   left: 24px;
   padding: 10px 24px 50px;
 }
 
 .lots__heading {
   width: 121px;
-  height: 47px;
-  left: 40px;
   padding-left: 40px;
   padding: 0px 40px;
   font-style: bold;
@@ -270,8 +266,6 @@ main {
 .about {
   display: grid;
   width: 1145px;
-  height: 603px;
-  top: 2073px;
   left: 24px;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 0px 0px;
@@ -285,7 +279,6 @@ main {
 
 .about__column_text {
   grid-column: 2/4;
-  margin-left: -70px;
   margin-bottom: 50px;
 }
 
